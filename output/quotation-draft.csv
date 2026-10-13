@@ -1,0 +1,8 @@
+﻿item,code,request_description,quantity,unit,source_page,source_line,status,reason,catalogue_description,currency,unit_price,line_total
+1,EL-100,Terminal block,4,pcs,1,5,DRAFT,Exact code and unit match; final human approval required,Terminal block,EUR,12.50,50.00
+2,EL-200,Copper cable,3.5,m,1,6,DRAFT,Exact code and unit match; final human approval required,Copper cable,EUR,8.40,29.40
+3,EL-300,Fuse,2,pcs,1,7,DRAFT,Exact code and unit match; final human approval required,Fuse,EUR,1.10,2.20
+4,EL-999,Unknown component,5,pcs,1,8,REVIEW,Code absent from approved catalogue; no substitution,,,,
+5,EL-200,Cable with unit mismatch,2,pcs,1,9,REVIEW,Requested and approved units differ; no automatic conversion,,,,
+6,EL-100,Quantity needs confirmation,'-3,pcs,1,10,REVIEW,Invalid quantity; confirm with requester,,,,
+7,EL-400,Ambiguous catalogue code,1,pcs,1,11,REVIEW,Ambiguous catalogue code; human selection required,,,,
